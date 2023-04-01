@@ -56,7 +56,7 @@ A new PowerShell window will appear on your screen, in order to verify you are u
 To create a new credentials issue the following command:
 
 ```
-New-StoredCredential -Target Atlassian -UserName <user@domain.tld> -Password <String>
+New-StoredCredential -Target Atlassian -UserName <user@domain.tld> -Password <String> -Persist LOCALMACHINE
 ```
 Verify the newly stored credential by issuing:
 
