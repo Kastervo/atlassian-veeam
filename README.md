@@ -27,7 +27,7 @@ Configure the following variables on Pre-Job and Post-Job scripts:
 - ```$destination``` Corresponds to a staging folder for each Atlassian App, if you are not using our default settings make sure to modify the values to point on your selected path.
 
 Configure the following variables on Pre-Job scripts:
-- ```$CredentialName``` It should correspond to the Credential Name inside the Windows Credential Manager see **Step #2**.
+- ```$CMEntry``` It should correspond to the Credential Name inside the Windows Credential Manager see **Step #2**.
 - ```$account``` The subdomain of your Atlassian cloud site company.atlassian.net
 - ```$attachments``` Set true or false depending if you want to include attachments on your backup file.
 - ```$cloud``` Set true if you want to export cloud backups, set to false to export server-compatible backups.
